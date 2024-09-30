@@ -6,10 +6,8 @@
     opacity: .9;
 }
 header{
-    
     width: 1200px;
     margin: 0 auto;
-    
 }
 .nav{
     display: flex;
@@ -25,23 +23,21 @@ header{
 }
 .nav__search{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     text-decoration: underline;
-    
 }
-.header__section{
+.header{
     display: flex;
     justify-content: center;
     align-items: center;
     background-image: url(Imagenes/img-mission-background.jpg);
     height: 700px;
     width: 1200px;
-    margin-top: 70px; 
 }
-.section__info{
+.header__info{
     display: flex;
     align-items:center;
-    justify-content: space-between;
+    justify-content: center;
     flex-direction: column;
     padding: .5em 0;
     width: 100%;
@@ -49,4 +45,57 @@ header{
     >h2, h4{
         margin: 0%;
     }   
+}
+a{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.main{
+    max-width: 1000px;
+    text-align: center;
+    margin-left: 15%;
+}
+.article__img{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.img__tea{
+    width: 300px;
+    height: 200px;
+    margin-bottom: 10px;
+}
+.figure__section{
+    display:flex;
+    justify-content: space-around;
+}
+figure{
+    margin-left: 150px;
+    background-image: url(Imagenes/img-locations-background.jpg);
+    height:500px ;
+    width: 1200px;
+    margin-left: 130px;
+}
+.locations{
+    width: 300px;
+    text-align: center;
+    background-color: transparent;
+}
+.figure__h2{
+    background-color: transparent;
+    text-align: center;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 80px;
+    padding-bottom: 15px;
+}
+.footer__contact{
+    text-align: center;
+    height: 200px;
+}
+.p__copyright{
+    padding-left: 20px;
+    text-align: left;
 }
